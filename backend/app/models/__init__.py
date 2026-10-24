@@ -1,0 +1,39 @@
+from app.models.entities import (
+    User,
+    Student,
+    OfficialSource,
+    Examination,
+    Subject,
+    Result,
+    ResultSubject,
+    Opportunity,
+    EligibilityRule,
+    RevaluationOption,
+    SupplementaryExam,
+    Deadline,
+    ReminderNotification,
+    DocumentRequirement,
+    StudentDocumentStatus,
+    AIConversation,
+    AIMessage
+)
+
+__all__ = [
+    "User",
+    "Student",
+    "OfficialSource",
+    "Examination",
+    "Subject",
+    "Result",
+    "ResultSubject",
+    "Opportunity",
+    "EligibilityRule",
+    "RevaluationOption",
+    "SupplementaryExam",
+    "Deadline",
+    "ReminderNotification",
+    "DocumentRequirement",
+    "StudentDocumentStatus",
+    "AIConversation",
+    "AIMessage"
+]
